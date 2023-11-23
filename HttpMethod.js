@@ -1,3 +1,5 @@
+"use-strict";
+
 const HttpMethods = {
     GET: "GET",
     POST: "POST",
@@ -7,5 +9,5 @@ const HttpMethods = {
 }
 
 export {
-    HttpMethods
+    HttpMethods,
 }
