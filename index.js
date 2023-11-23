@@ -1,14 +1,12 @@
 "use-strict";
 
-import  {Router} from "./Router"
+import  {PlankServer} from "./JsServer"
 
 
-const app = new Router();
+const app = new PlankServer();
 const PORT = 8080;
 
 
-app.runServer(PORT, () => {
-    console.log(`server on in port ${PORT}`);
-})
-
-
+app.RunServer(PORT, () => {
+    console.log(`Server listen in http://127.0.0.1:${PORT}`);
+});
