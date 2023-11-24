@@ -9,5 +9,12 @@ To run:
 bun run index.js
 ```
 
+To dev
+
+```sh
+# to add commit
+git branch developmen
+```
+
 - If not bun
 [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
