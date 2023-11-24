@@ -1,6 +1,6 @@
-"use-strict";
+"use strict";
 
-import  {PlankServer} from "./JsServer"
+import  {PlankServer} from "./lib/JsServer"
 
 
 const app = new PlankServer();
