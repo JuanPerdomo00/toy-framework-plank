@@ -6,7 +6,7 @@ Example of a minimalist framework, it is in a very beginner state. Please note t
 To run:
 
 ```bash
-bun run index.js
+bun run --watch index.js
 ```
 
 To dev
